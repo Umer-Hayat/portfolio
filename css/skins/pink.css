@@ -11,6 +11,8 @@
 .aside .nav li a.active {
   color: #ec1839;
 }
+.btn,
+.about .about-content .skills .skill-item .progress .progress-in,
 .section-title h2::before,
 .section-title h2::after,
 .aside .nav-toggler span,
