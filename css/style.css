@@ -353,12 +353,16 @@ body {
 }
 .about .about-content .skills .skill-item h5 {
   line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin: 0;
 }
 .about .about-content .skills .skill-item .progress {
   background-color: #e3e3e3;
-  height: 8px;
+  height: 7px;
   border-radius: 4px;
-  overflow: hidden;
   width: 100%;
   position: relative;
 }
@@ -371,5 +375,54 @@ body {
 }
 
 .about .about-content .skills .skill-item .skill-percent {
-  display: none;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+  font-weight: 400;
+  color: #302e4d;
+}
+.about .about-content .education {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  min-width: 50%;
+  margin-top: 30px;
+}
+.about .about-content .experience {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  min-width: 50%;
+  margin-top: 30px;
+}
+.about .about-content .title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #302e4d;
+}
+.about .about-content .timeline-box {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  min-width: 100%;
+}
+
+.about .about-content .timeline {
+  background-color: #fdf9ff;
+  padding: 30px 15px;
+  border: 1px solid #d4d4e3;
+  border-radius: 10px;
+  width: 100%;
+}
+.about .about-content .timeline .circle-dot {
+}
+.about .about-content .timeline .timeline-date {
+}
+.about .about-content .timeline .timeline-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #302e4d;
+}
+.about .about-content .timeline .timeline-text {
 }
