@@ -412,10 +412,40 @@ body {
   border: 1px solid #d4d4e3;
   border-radius: 10px;
   width: 100%;
+  /* position: relative; */
+}
+.about .about-content .timeline .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+.about .about-content .timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+.about .about-content .timeline .timeline-item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
 }
 .about .about-content .timeline .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
 }
 .about .about-content .timeline .timeline-date {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #504370;
+}
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
 }
 .about .about-content .timeline .timeline-title {
   font-weight: 700;
@@ -425,4 +455,64 @@ body {
   color: #302e4d;
 }
 .about .about-content .timeline .timeline-text {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+}
+
+/* Service Section */
+.service .container {
+  padding-bottom: 40px;
+}
+.service .service-item {
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.service .service-item .service-item-inner {
+  background-color: #fdf9ff;
+  border: 1px solid #d4d4e3;
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner .icon .fa {
+  line-height: 60px;
+  font-size: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover .icon .fa {
+  font-size: 25px;
+  color: #fff;
+}
+.service .service-item .service-item-inner h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #302e4d;
+  font-weight: 700;
+}
+.service .service-item .service-item-inner p {
+  font-size: 16px;
+  color: #504370;
+  line-height: 25px;
+  margin: 0;
 }
