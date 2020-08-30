@@ -1030,6 +1030,9 @@ body.dark .shadow-dark {
 /* Responsive */
 
 @media (max-width: 1199px) {
+  .section .container {
+    padding-top: 70px;
+  }
   .aside .nav-toggler {
     display: -ms-flex;
     display: flex;
