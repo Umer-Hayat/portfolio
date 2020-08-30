@@ -789,7 +789,7 @@ select {
 .blog .blog-item-inner {
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid $d4d4e3;
+  border: 1px solid #d4d4e3;
 }
 .blog .blog-item-inner .blog-img {
   position: relative;
