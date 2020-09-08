@@ -606,6 +606,7 @@ select {
   text-align: center;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  width: 100%;
 }
 .service .service-item .service-item-inner:hover {
   -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -903,11 +904,14 @@ select {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   padding-bottom: 30px;
+  display: flexs;
 }
 .blog .blog-item-inner {
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid #d4d4e3;
+  width: 100%;
+  background-color: #fdf9ff;
 }
 .blog .blog-item-inner .blog-img {
   position: relative;
@@ -935,7 +939,6 @@ select {
 }
 .blog .blog-item-inner .blog-info {
   padding: 30px 15px;
-  background-color: #fdf9ff;
 }
 .blog .blog-item-inner .blog-info .blog-title {
   font-size: 18px;
@@ -1108,7 +1111,7 @@ body.dark .shadow-dark {
     left: 30px;
   }
   .aside .nav-toggler.open {
-    left: 300px;
+    left: 200px;
   }
   .aside {
     left: -270px;
